@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import SearchBar from './components/SearchBar'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,6 +8,7 @@ function App() {
     <>
       <div>
          <h1>Autocomplete con debounce</h1>
+         <SearchBar />
 
       </div>
 
